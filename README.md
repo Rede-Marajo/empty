@@ -1,6 +1,6 @@
 # empty
 
-## _Define uma variável é undefined, null, string vazia ou array vazio._
+## _Define se uma variável é undefined, null, string vazia ou array vazio._
 
 ## Instalação
 
