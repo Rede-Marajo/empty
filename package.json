@@ -1,7 +1,7 @@
 {
   "name": "@redemarajo/empty",
-  "version": "1.0.2",
-  "description": "Define uma expressão, de qualquer tipo de dado, para ser verificada se está vazia.",
+  "version": "1.0.3",
+  "description": "efine se uma variável é undefined, null, string vazia ou array vazio.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
