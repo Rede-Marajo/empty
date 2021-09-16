@@ -1,4 +1,4 @@
-# isEmpty
+# is-empty
 
 ## _Define uma expressão, de qualquer tipo de dado, para ser verificada se está vazia._
 
