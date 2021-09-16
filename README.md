@@ -1,28 +1,27 @@
-# is-empty
+# empty
 
-## _Define uma expressão, de qualquer tipo de dado, para ser verificada se está vazia._
+## _Define uma variável é undefined, null, string vazia ou array vazio._
 
 ## Instalação
 
 ```sh
-npm i is-empty
+npm i @redemarajo/empty
 ```
 
 Ou
 
 ```sh
-yarn add is-empty
+yarn add @redemarajo/empty
 ```
 
 ## Uso
 
 ```js
-const is-empty = require('is-empty');
+const empty = require('@redemarajo/empty');
 let vazioArray = [];
 let vazioString = '';
 
-if(vazioArray || vazioString){
-    console.log('is-empty')
+if (vazioArray || vazioString) {
+  console.log('is empty');
 }
-
 ```
