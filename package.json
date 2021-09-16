@@ -1,5 +1,5 @@
 {
-  "name": "is-empty",
+  "name": "@redemarajo/is-empty",
   "version": "1.0.0",
   "description": "Define uma expressão, de qualquer tipo de dado, para ser verificada se está vazia.",
   "main": "index.js",
