@@ -8,5 +8,8 @@ module.exports = function empty(item) {
   if (typeof item === 'string') {
     return item.trim() === '';
   }
+  if (typeof (item) === 'object' ){
+    return Object.keys(item).length === 0;
+  }
   return null;
 };

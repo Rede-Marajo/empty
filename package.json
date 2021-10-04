@@ -1,6 +1,6 @@
 {
   "name": "@redemarajo/empty",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "efine se uma variável é undefined, null, string vazia ou array vazio.",
   "main": "index.js",
   "scripts": {
