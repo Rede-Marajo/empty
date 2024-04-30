@@ -1,11 +1,8 @@
 {
   "name": "@redemarajo/empty",
-  "version": "1.0.4",
-  "description": "efine se uma variável é undefined, null, string vazia ou array vazio.",
+  "version": "1.0.5",
+  "description": "Define se o conteúdo passado é vazio",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rede-Marajo/isEmpty.git"

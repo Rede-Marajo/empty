@@ -1,27 +1,33 @@
 # empty
 
-## _Define se uma variável é undefined, null, string vazia ou array vazio._
+## Define se o conteúdo passado é vazio.
 
-## Instalação
+### Instalação
 
 ```sh
 npm i @redemarajo/empty
 ```
 
-Ou
-
-```sh
-yarn add @redemarajo/empty
-```
-
 ## Uso
 
 ```js
-const empty = require('@redemarajo/empty');
-let vazioArray = [];
-let vazioString = '';
+const empty = require("@redemarajo/empty");
 
-if (vazioArray || vazioString) {
-  console.log('is empty');
-}
+const emptyArray = [];
+const emptyString = "";
+const emptyObject = {};
+const falseNumber = 0;
+const falseBoolean = false;
+
+empty(emptyArray); // true
+empty(emptyString); // true
+empty(emptyObject); // true
+empty(falseNumber); // true
+empty(falseBoolean); // true
+empty(null); // true
+empty(undefined); // true
+empty(NaN); // true
+empty(new Date("invalid date")); // true
+
+empty(/*Unknown type*/, true); // throw TypeError
 ```
