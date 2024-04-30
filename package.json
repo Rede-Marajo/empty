@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rede-Marajo/isEmpty.git"
+    "url": "git+https://github.com/Rede-Marajo/empty.git"
   },
   "keywords": [
     "empty",
@@ -15,7 +15,7 @@
   "author": "Rede Marajó",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rede-Marajo/isEmpty/issues"
+    "url": "https://github.com/Rede-Marajo/empty/issues"
   },
-  "homepage": "https://github.com/Rede-Marajo/isEmpty#readme"
+  "homepage": "https://github.com/Rede-Marajo/empty#readme"
 }
